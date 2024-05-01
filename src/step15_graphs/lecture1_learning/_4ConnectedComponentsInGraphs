@@ -1,0 +1,8 @@
+Single graph can have multiple connected components.
+Ex:-
+https://lh6.googleusercontent.com/AvJI6MEwrQF3eXS0OtWYgNtXG4H-2oMq5Fhz3Yy7VU1xAuC3uPPzGRUaKkYOKUHpRkUxDU-f5aXpehu3-K6uoGT2uHaJ4PXXh8E3BM8WkSeXpFS_zGEYrtI7ZoX7NOCThx-R4ZNl_uLKiMPCdwZ2KoE
+For every graph traversal algorithm, we have to use visited[] because traverseAlgorithm(node1) will only traverse that component only.
+Other components would be left out. To avoid this, we use visited[] and find out for which indices visited[i] is false and
+then start traversing that components.
+Ex:
+https://lh3.googleusercontent.com/sDVRYlJkE03iLf86hfv-90LJumUlNJqv9Osa0KiPjsVyU-QeFt2GFOyswPQYn03JqnQOezQDHt2JsuR6i_rGsVspGaui3U-I1NUQPxSO2EYTVChPiQHMzHpYyqd-EUyMiMBLyMvjS16eS9iIxoCJRDY

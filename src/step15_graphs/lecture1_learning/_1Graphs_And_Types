@@ -1,0 +1,34 @@
+Two types of graphs:
+
+1)Directed:
+If Directed Graph has at-least one cycle, then it's called Directed Cyclic Graph(DAG).
+Example:
+https://lh6.googleusercontent.com/vCVUDaBeBU2yQiG_okHHQ8nVs2SnPkIxvlkdzy6HJxgi8rKriovb18x9wonxe7DZCH7rDhRO2KBZ7E8dJNDmXHZJxaIcwFAfDL59Klvo_L0eXJKTTVikWP7AcBl_0rkmj9m87vTqjEXvtwh-8LT-R6Y
+For Directed Graphs,
+Indegree of a node:- is the number of incoming edges.
+Outdegree of a node:- is the number of outgoing edges.
+
+2)Undirected:
+If Undirected Graph has at-least one cycle, then it's called Undirected Cyclic Graph.
+Example:
+https://lh6.googleusercontent.com/DfrUwFWWXA6dvxsUpgsuPHMkV1tUm_0g8b2IHT-xz3wWsWAv5ho1PWK_qKoy-5fNanrupZqZj5Go058l1xm3i-CCkGbD35EI4LIfAx7sJ0sENXyUKzu9t7BUu3_oqIk9D_4vE7DpwDZiWeParWoUu5s
+For undirected graphs,
+Degree:- is the number of edges attached to a node.
+Property:- Total Degree of a graph = 2 x Edges
+
+
+
+
+
+
+Path in a Graph:
+The path contains a lot of nodes and each of them is reachable and doesn't have duplicate nodes.
+Example:
+Consider the given graph,
+https://lh3.googleusercontent.com/DgZLJ9dhn39Y1Mi4lUQTGRFHtWIOq2Dc6vDlAoCr7KG9RgPpIe26dhbdZV3IpvkwrajaXlu1TuTUWa7YRI5OiGDhTqowOkjCLe9qP7bUPW8G4Hqn01DR9SqXr0zMQNj7rA72TEQAz8PFpcA59F65gwc
+1 2 3 5 is a path.
+1 2 3 2 1 is not a path, because a node can’t appear twice in a path.
+1 3 5 is not a path, as adjacent nodes must have an edge and there is no edge between 1 and 3.
+
+Cost of Edge (or) Edge Weight:
+A graph may have weights assigned on its edges. If weights are not assigned then we assume the unit(1) weight.
